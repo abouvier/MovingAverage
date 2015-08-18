@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring
+# Syntax Coloring Map For MovingAverage
 #######################################
 
 #######################################
@@ -14,9 +14,16 @@ MovingAverage	KEYWORD1
 
 push	KEYWORD2
 back	KEYWORD2
+capacity	KEYWORD2
 size	KEYWORD2
+empty	KEYWORD2
+full	KEYWORD2
 sum	KEYWORD2
 average	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
 
 #######################################
 # Constants (LITERAL1)
