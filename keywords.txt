@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-MovingAverage	KEYWORD1
+MovingAverage	KEYWORD1	MovingAverage
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -24,4 +24,3 @@ average	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
-
