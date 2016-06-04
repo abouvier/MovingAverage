@@ -82,7 +82,7 @@ public:
 
 	value_type average() const
 	{
-		return sum() / size();
+		return empty() ? 0 : sum() / size();
 	}
 };
 
