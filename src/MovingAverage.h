@@ -23,9 +23,9 @@ class MovingAverage
 {
 public:
 	typedef CircularBuffer<T, Size> container_type;
-	typedef typename container_type::value_type value_type;
 	typedef typename container_type::reference reference;
 	typedef typename container_type::const_reference const_reference;
+	typedef typename container_type::value_type value_type;
 	typedef typename container_type::size_type size_type;
 
 private:
@@ -33,7 +33,9 @@ private:
 	value_type m_sum;
 
 public:
-	MovingAverage() : m_sum(0) {}
+	MovingAverage() : m_sum(0)
+	{
+	}
 
 	void push(const_reference value)
 	{
